@@ -38,9 +38,6 @@ alias egrep='egrep --color=auto'
 # Docker alias and function
 # ------------------------------------
 
-# Get latest container ID
-alias dl="docker ps -l -q"
-
 # Get container process
 alias dps="docker ps"
 
