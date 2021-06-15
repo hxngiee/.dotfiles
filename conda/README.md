@@ -5,7 +5,10 @@
 - CUDA 버전 변경을 원하실 때마다 사용자 계정의 export를 변경하실 필요는 없습니다
 
 
-## 경로
-EX) source activate pytorch_p36 진행 시 아래 파일의 activate 파일을 참고하여 export가 설정됩니다.
-경로 : /home/ubuntu/anaconda3/envs/pytorch_p36/etc/conda/activate.d/00_activate.sh
-경로 : /home/ubuntu/anaconda3/envs/pytorch_p36/etc/conda/activate.d/00_deactivate.sh
+## 경로  
+```
+/home/ubuntu/anaconda3/envs/pytorch_p36/etc/conda/activate.d/00_activate.sh
+/home/ubuntu/anaconda3/envs/pytorch_p36/etc/conda/activate.d/00_deactivate.sh
+```
+- source activate pytorch_p36 진행 시 아래 파일의 activate 파일을 참고하여 export가 설정됩니다.
+
