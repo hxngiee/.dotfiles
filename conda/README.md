@@ -16,3 +16,16 @@
 ```
 $ conda env create -f /home/ubuntu/env_yml/pytorch_p36.yml
 ```
+
+## 패키지 관리
+```
+# conda list 저장하기(export)
+conda list --export > requirements.txt
+
+# conda list 불러오기(import)
+conda install --file requirements.txt
+
+# python 패키지 저장하기
+pip freeze
+pip freeze > requirements.txt
+```
