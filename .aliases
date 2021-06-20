@@ -26,6 +26,17 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# ------------------------------------
+# GPU usage monitoring
+# ------------------------------------
+alias ns="watch -d -n 1 nvidia-smi"
+alias nsl="nvidia-smi -L"
+
+# ------------------------------------
+# Conda alias and function
+# ------------------------------------
+alias sa="source activate"
+alias envs="conda info --envs"
 
 # ------------------------------------
 # Docker alias and function
