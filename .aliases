@@ -27,6 +27,11 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # ------------------------------------
+# SSH to Connect a Remote Server
+# ------------------------------------
+alias server_name="ssh id@ip_address -p"
+
+# ------------------------------------
 # GPU usage monitoring
 # ------------------------------------
 alias ns="watch -d -n 1 nvidia-smi"
